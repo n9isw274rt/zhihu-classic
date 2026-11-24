@@ -1,0 +1,16 @@
+{
+  "name": "zhihu-classic-userscript",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "知乎 · 经典版 — 回到 2014 年知乎界面的 Tampermonkey 用户脚本",
+  "repository": "github:n9isw274rt/zhihu-classic",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "css": "node scripts/trim-css.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

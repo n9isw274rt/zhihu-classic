@@ -1,0 +1,9 @@
+dist/
+node_modules/
+shots/
+*.log
+
+# 线上抓取的原始素材（含登录态痕迹），不进仓库；用 scripts/collect-assets.mjs 重新生成
+assets/classic-live.css
+assets/log-question.html
+assets/baseline-log.png

@@ -1,0 +1,4 @@
+# 统一 LF：脚本按字节发布，CRLF 曾让元数据解析出问题
+* text=auto eol=lf
+*.user.js text eol=lf
+*.js text eol=lf
